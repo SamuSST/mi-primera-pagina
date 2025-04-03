@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Metadatos básicos del documento -->
+    <meta charset="UTF-8"> <!-- Codificación de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configuración para diseño responsivo -->
+    <title>Document</title> <!-- Título de la página -->
+
+    <!-- Enlace al archivo de estilos CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Preconexión a Google Fonts para mejorar el rendimiento -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Fuente Poppins desde Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- Sección principal -->
+<section>
+    <header> 
+        <!-- Barra de navegación -->
+        <nav class="navbar">
+            <ul class="nav-links">
+                <!-- Enlaces de navegación -->
+                <li><a href="#CSS">CSS</a></li>
+                <li><a href="#JavaScript">JavaScript</a></li>
+                <li><a href="#tablaCSS">Tabla de Atributos CSS</a></li>
+            </ul>
+        </nav>
+    </header>    
+</section>
+
+<!-- Sección sobre CSS -->
+<section id="CSS" class="CSS">
+    <h3>CSS</h3> 
+    <div class="contenedor">
+        <!-- Descripción de CSS -->
+        <p>
+            CSS (Cascading Style Sheets) es un lenguaje de estilos utilizado para dar formato
+            a las páginas web. Su principal función es separar la estructura del contenido (HTML)
+            de la presentación visual, permitiendo modificar colores, fuentes, tamaños, márgenes 
+            y disposición de los elementos.
+        </p>
+    </div> 
+
+    <div class="contenedor">
+        <!-- Contenedor para la importancia de CSS -->
+        <h4>Importancia de CSS en el desarrollo web:</h4>
+        <ul>
+            <!-- Lista de beneficios de CSS -->
+            <li>Permite crear páginas web más atractivas y con un diseño más profesional.</li>
+            <li>Facilita la creación de páginas web responsivas, que se adaptan a diferentes dispositivos.</li>
+            <li>Mejora la accesibilidad de las páginas web.</li>
+        </ul>
+    </div>
+    <div class="img-container floating-img">
+        <!-- Contenedor para la imagen flotante -->
+        <a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank">
+            <!-- Enlace a la documentación de CSS en MDN -->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" 
+                 alt="Logo CSS" width="150">
+            <!-- Imagen del logo de CSS -->
+        </a>
+    </div>
+</section>      
+
+<section id="JavaScript" class="JavaScript">
+    <!-- Sección sobre JavaScript -->
+    <h3>JavaScript</h3> 
+    <div class="contenedor">
+        <!-- Contenedor para la descripción de JavaScript -->
+        <p>
+            JavaScript es un lenguaje de programación utilizado para hacer que las páginas web sean interactivas.
+            Permite manipular el contenido de una página, responder a eventos del usuario y realizar solicitudes 
+            dinámicas a servidores, mejorando la experiencia del usuario.
+        </p>
+    </div> 
+
+    <div class="contenedor">
+        <!-- Contenedor para la importancia de JavaScript -->
+        <h4>Importancia de JavaScript en el desarrollo web:</h4>
+        <ul>
+            <!-- Lista de beneficios de JavaScript -->
+            <li>Permite agregar interactividad y dinamismo a las páginas web.</li>
+            <li>Es clave para el desarrollo de aplicaciones web modernas.</li>
+            <li>Funciona en el navegador sin necesidad de instalación adicional.</li>
+        </ul>
+    </div>
+    <div class="img-container floating-img">
+        <!-- Contenedor para la imagen flotante -->
+        <a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank">
+            <!-- Enlace a la documentación de JavaScript en MDN -->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" 
+                 alt="Logo JavaScript" width="150">
+            <!-- Imagen del logo de JavaScript -->
+        </a>
+    </div>
+</section>
+ 
+
+<section id="tablaCSS" class="tablaCSS">
+    <!-- Sección para la tabla de atributos CSS -->
+    <h3>Tabla de Atributos CSS</h3>
+    <table id="tabla">
+        <!-- Tabla con información sobre atributos CSS -->
+        <tr>
+            <!-- Encabezados de la tabla -->
+            <th>Nombre del atributo</th>
+            <th>Descripción</th>
+            <th>Valores posibles</th>
+            <th>Ejemplo de uso</th>
+            <th>Imagen representativa</th>
+            <th>Fuente de información</th>
+        </tr>
+        <tr>
+            <!-- Fila para el atributo "color" -->
+            <td>color</td>
+            <td>Define el color del texto</td>
+            <td>Nombre de color, código HEX, RGB</td>
+            <td><code>color: red;</code></td>
+            <td><img src="imagenes/Imagen1.png" alt="Ejemplo de color"></td>
+            <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/color">MDN</a></td>
+        </tr>
+        <tr>
+            <!-- Fila para el atributo "background-color" -->
+            <td>background-color</td>
+            <td>Establece el color de fondo</td>
+            <td>Nombre de color, código HEX, RGB</td>
+            <td><code>background-color: blue;</code></td>
+            <td><img src="imagenes/Imagen2.png" alt="Ejemplo de fondo"></td>
+            <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/background-color">MDN</a></td>
+        </tr>
+        <tr>
+            <!-- Fila para el atributo "font-size" -->
+            <td>font-size</td>
+            <td>Controla el tamaño del texto</td>
+            <td>px, em, rem, %, valores absolutos</td>
+            <td><code>font-size: 16px;</code></td>
+            <td><img src="imagenes/Imagen3.png" alt="Ejemplo de tamaño de fuente"></td>
+            <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/font-size">MDN</a></td>
+        </tr>
+        <tr>
+            <!-- Fila para el atributo "font-family" -->
+            <td>font-family</td>
+            <td>Define la familia tipográfica del texto</td>
+            <td>Arial, Verdana, sans-serif, serif, cursive</td>
+            <td><code>font-family: Arial, sans-serif;</code></td>
+            <td><img src="imagenes/Imagen4.png" alt="Ejemplo de fuente"></td>
+            <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/font-family">MDN</a></td>
+        </tr>
+        <tr>
+            <!-- Fila para el atributo "text-align" -->
+            <td>text-align</td>
+            <td>Alinea el texto</td>
+            <td>left, center, right, justify</td>
+            <td><code>text-align: center;</code></td>
+            <td><img src="imagenes/Imagen5.png" alt="Ejemplo de alineación"></td>
+            <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/text-align">MDN</a></td>
+        </tr>
+        <tr>
+            <!-- Fila para el atributo "border" -->
+            <td>border</td>
+            <td>Define los bordes de un elemento</td>
+            <td>Ancho, estilo y color (ej. 2px solid red)</td>
+            <td><code>border: 2px solid red;</code></td>
+            <td><img src="imagenes/Imagen6.png" alt="Ejemplo de borde"></td>
+            <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/border">MDN</a></td>
+        </tr>
+        <tr>
+            <!-- Fila para el atributo "margin" -->
+            <td>margin</td>
+            <td>Establece el margen exterior del elemento</td>
+            <td>px, em, %, auto</td>
+            <td><code>margin: 10px;</code></td>
+            <td><img src="imagenes/Imagen7.png" alt="Ejemplo de margen"></td>
+            <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/margin">MDN</a></td>
+        </tr>
+        <tr>
+            <!-- Fila para el atributo "padding" -->
+            <td>padding</td>
+            <td>Establece el relleno interior del elemento</td>
+            <td>px, em, %</td>
+            <td><code>padding: 15px;</code></td>
+            <td><img src="imagenes/Imagen8.png" alt="Ejemplo de padding"></td>
+            <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/padding">MDN</a></td>
+        </tr>
+        <tr>
+            <!-- Fila para el atributo "display" -->
+            <td>display</td>
+            <td>Define cómo se muestra un elemento</td>
+            <td>block, inline, flex, grid, none</td>
+            <td><code>display: flex;</code></td>
+            <td><img src="imagenes/imagen9.png" alt="Ejemplo de display"></td>
+            <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/display">MDN</a></td>
+        </tr>
+        <tr>
+            <!-- Fila para el atributo "position" -->
+            <td>position</td>
+            <td>Define el tipo de posicionamiento</td>
+            <td>static, relative, absolute, fixed</td>
+            <td><code>position: absolute;</code></td>
+            <td><img src="imagenes/Imagen10.png" alt="Ejemplo de posición"></td>
+            <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/position">MDN</a></td>
+        </tr>
+        <tr>
+            <!-- Fila para el atributo "overflow" -->
+            <td>overflow</td>
+            <td>Controla el comportamiento del contenido desbordado</td>
+            <td>visible, hidden, scroll, auto</td>
+            <td><code>overflow: hidden;</code></td>
+            <td><img src="imagenes/Imagen11.png" alt="Ejemplo de overflow"></td>
+            <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/overflow">MDN</a></td>
+        </tr>
+        <tr>
+            <!-- Fila para el atributo "z-index" -->
+            <td>z-index</td>
+            <td>Controla la superposición de elementos</td>
+            <td>Número entero positivo o negativo</td>
+            <td><code>z-index: 10;</code></td>
+            <td><img src="imagenes/Imagen12.png" alt="Ejemplo de z-index"></td>
+            <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/z-index">MDN</a></td>
+        </tr>
+        <tr>
+            <!-- Fila para el atributo "box-shadow" -->
+            <td>box-shadow</td>
+            <td>Aplica sombras a un elemento</td>
+            <td>OffsetX, OffsetY, Blur, Color</td>
+            <td><code>box-shadow: 5px 5px 10px gray;</code></td>
+            <td><img src="imagenes/Imagen13.png" alt="Ejemplo de sombra"></td>
+            <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/box-shadow">MDN</a></td>
+        </tr>
+    </table>
+    </section>
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Samuel Saavedra. Todos los derechos reservados.</p>
+            <p>Fuentes:  <a href="https://developer.mozilla.org/es/"> MDN</a></p>
+            <ul class="social-links">
+                <li><a href="https://www.facebook.com/profile.php?id=100005351027957" target="_blank">Facebook</a></li>
+                <li><a href="https://www.instagram.com/samu_saavedra/?hl=es" target="_blank">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
